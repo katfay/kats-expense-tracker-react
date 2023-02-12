@@ -1,0 +1,10 @@
+.expense-response {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: flex-start;
+}
+
+.expense-response .label-newline {
+  display: block;
+}
