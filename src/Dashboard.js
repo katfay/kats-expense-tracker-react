@@ -5,18 +5,23 @@ import "./Dashboard.css";
 export default function Dashboard() {
   return (
     <div className="Dashboard">
-      <div class="dashboard-headings">
-        <label for="">Expense</label>
-        <label for="">Amount</label>
-        <label for="">Date</label>
-        <label for="">Notes</label>
+      <div className="DashboardHeading">
+        <span class="wider">Expense type</span> <span>Amount</span>{" "}
+        <span>Date</span>
+        <span class="wider">Notes</span>
       </div>
-      <form class="">
-        <input type="text" id="#" name="category" for="Expense" size="10" />
-        <input type="number" id="#" name="amount" for="Amount" size="10" />
-        <input type="date" id="#" name="datePaid" for="Date" size="10" />
-        <input type="text" id="#" name="notes" for="Notes" size="10" />
-      </form>
+      {/* Placeholder lines below are for expenses entered by user in 'Add an expense form' and then returned by API call */}
+      <div className="DashboardResults">
+        <div>
+          <span class="wider">Food</span>
+          <span>$30</span>
+          <span>8/2/23</span>
+          <span class="wider">Croissants from Gordon St Bakery</span>
+        </div>
+        <div>Returned component: expense3</div>
+        <div>Returned component: expense4</div>
+        <div>Returned component: expense5</div>
+      </div>
     </div>
   );
 }

@@ -32,3 +32,11 @@ export default function AddExpensePopUp() {
     </div>
   );
 }
+
+/*       <form class="">
+        <input type="text" id="#" name="category" for="Expense" size="10" />
+        <input type="number" id="#" name="amount" for="Amount" size="10" />
+        <input type="date" id="#" name="datePaid" for="Date" size="10" />
+        <input type="text" id="#" name="notes" for="Notes" size="10" />
+      </form> 
+*/

@@ -1,5 +1,29 @@
 .Dashboard {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
+}
+
+.Dashboard .DashboardHeading {
+  font-weight: bold;
+  display: flex;
+}
+
+.Dashboard .DashboardHeading span {
+  display: flex;
+  width: 20%;
+  /* border: 1px red solid; */
+}
+
+.Dashboard .DashboardHeading .wider {
+  width: 30%;
+}
+.Dashboard .DashboardResults span {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+.Dashboard .DashboardResults .wider {
+  width: 30%;
 }
