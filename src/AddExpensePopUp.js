@@ -9,10 +9,23 @@ export default function AddExpensePopUp() {
         <h1>Add an expense</h1>
       </div>
       <form className="expense-response">
-        <label for="expenseEntered" className="label-newline">
-          Expense
+        <label for="expense-select" className="label-newline">
+          Expense type
         </label>
-        <input id="#expenseEntered" type="text" placeholder="Placeholder" />
+        <select name="expenseType" id="expense-select">
+          <option value="">--Please choose an option--</option>
+          <option value="food">Food</option>
+          <option value="bills">Bills</option>
+          <option value="learning">Work</option>
+          <option value="holidays">Holidays</option>
+          <option value="social">Social</option>
+          <option value="hobbies">Hobbies</option>
+          <option value="health">Health</option>
+          <option value="gifts">Gifts</option>
+          <option value="charity">Charity</option>
+          <option value="clothes">Clothes & grooming</option>
+          <option value="savings">Savings</option>
+        </select>
         <label for="amountEntered" className="label-newline">
           Amount
         </label>
@@ -22,7 +35,7 @@ export default function AddExpensePopUp() {
         </label>
         <input id="#dateEntered" type="date" placeholder="Date" />
         <label for="messageEntered" className="label-newline">
-          Message
+          Notes
         </label>
         <input id="#messageEntered" type="text" placeholder="Text area" />
       </form>
