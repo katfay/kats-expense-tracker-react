@@ -6,7 +6,7 @@ export default function AddButton() {
   return (
     <div className="AddButton">
       <button className="expense-button" type="" id="">
-        Add
+        Add (button)
       </button>
     </div>
   );

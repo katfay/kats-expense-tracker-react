@@ -4,11 +4,9 @@ import "./AddExpensePopUp.css";
 
 export default function AddExpensePopUp() {
   return (
-    <div>
-      <div className="expense-response">
-        <h1>Add an expense</h1>
-      </div>
-      <form className="expense-response">
+    <div className="AddExpensePopUp">
+      <h1>Add an expense (pop-up)</h1>
+      <form>
         <label for="expense-select" className="label-newline">
           Expense type
         </label>

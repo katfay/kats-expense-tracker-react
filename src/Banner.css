@@ -1,3 +1,7 @@
+.Banner {
+  margin: 5%;
+}
+
 .Banner .site-banner {
   background-color: pink;
   align-self: stretch;
