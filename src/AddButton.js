@@ -5,16 +5,15 @@ import "./AddButton.css";
 import "./AddExpensePopUp.css";
 
 export default function AddButton() {
-  function openPopUp(event) {
-    alert("Clicked");
-  }
+  let [popUp, showPopUp] = useState(false);
+
   return (
     <div className="AddButton">
       <button
         className="expense-button"
         type="button"
         id=""
-        onClick={openPopUp}
+        onClick={showPopUp}
       >
         Add (button)
       </button>
