@@ -4,6 +4,7 @@
   max-width: 500px;
   align-items: flex-start;
   margin: 5%;
+  border: solid 1px silver;
 }
 
 .AddExpensePopUp form .label-newline {
