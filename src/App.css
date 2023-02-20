@@ -1,6 +1,40 @@
 .App {
   margin: 5%;
 }
+
+.App a {
+  text-decoration: none;
+  color: black;
+}
+
+.App div {
+  border: solid 1px lightsalmon;
+}
+
+.App .add-button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.App .add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 35%;
+  min-height: 10vh;
+  margin: 5%;
+  padding: 2%;
+  border-radius: 30px;
+  border-style: none;
+}
+
+@media (min-width: 600px) {
+  .add-button button {
+    min-width: 7.5rem;
+    margin: 0;
+  }
+}
+
 /*
 
 .App {

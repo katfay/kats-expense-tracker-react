@@ -2,19 +2,22 @@ import React, { useState } from "react";
 
 import Banner from "./Banner.js";
 import AddExpensePopUp from "./AddExpensePopUp";
-import AddButton from "./AddButton.js";
 import Dashboard from "./Dashboard.js";
 
 import "./App.css";
 
 export default function App() {
-  let [popUp, showPopUp] = useState(false);
-
   return (
     <div className="App">
       <Banner />
-      {popUp ? <AddExpensePopUp /> : null}
-      <AddButton />
+      <AddExpensePopUp />
+      <div className="add-button-div">
+        <a href="/add-expense" target="_blank">
+          <button className="add-button" type="button" id="">
+            Add (button)
+          </button>
+        </a>
+      </div>
       <Dashboard />
     </div>
   );
